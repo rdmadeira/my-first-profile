@@ -57,6 +57,14 @@ article {
     font-size: 20px;
     font-weight: 400;
 }
+article p {
+    background: #f5f5dc85;
+    padding: 0 20px;
+    border-width: 5px;
+    border-color: #5a6a49;
+    border-style: double;
+    border-radius: 10px;
+}
 footer {
     background-image: url("../assets/2focus.jpg.jpg");
     background-repeat:round;
@@ -81,7 +89,7 @@ footer {
           padding: 10px 9vw; 
 }
 footer:hover {
-    height: 51vh;
+    height: 60vh;
     transition-property: all;
     transition-duration: 2s;
   transition-delay: 0.3s; 
