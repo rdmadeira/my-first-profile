@@ -58,7 +58,7 @@ article {
     font-size: 20px;
     font-weight: 400;
 }
-#descripcion {
+sector#descripcion {
     background: #f5f5dc85;
     padding: 0 20px;
     border-width: 5px;
@@ -81,7 +81,7 @@ footer {
     font-size: 1vw;
     transition-property: all;
     transition-duration: 1.5s;
-  transition-delay: 0.3s; 
+    transition-delay: 0.3s; 
 }
 #div-contacto {
     transition-property: all;
