@@ -45,7 +45,8 @@ picture {
     border-radius: 10px;
     position: relative;
     margin-top: 10.5%;
-    
+    width: 27em;
+    font-size: 1.8vw;
 }
 article {
     display: flex;
