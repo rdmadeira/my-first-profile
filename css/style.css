@@ -3,13 +3,15 @@ body {
     margin-top: 0px;
 }
 #header {
-    background-image: url("../assets/2focus.jpg");
-    background: linear-gradient(180deg, black, black, #000000, #f1f0c5);
-    background-size: 100% 100%;
+    background-image: url("../assets/spectrum2.jpg");
+    background-color: black;
+    background-size: 119% 191%;
     display: flex; flex-direction: row; align-content: center;
     width: 100%;
     height: fit-content;
     margin-top: 0px;
+    border-bottom-color: rgb(253 255 119);
+    border-bottom-style: ridge;
 }
 header div p, header div h1 {
     color:beige;
@@ -41,12 +43,15 @@ picture {
     align-items: center;
     text-shadow: 1px 0px 13px #cd8526;
     color: beige;
-    background-color: #020202c4; opacity: 0.8;
+    background-color: #600f0fab;
     border-radius: 10px;
     position: relative;
     margin-top: 10.5%;
     width: 27em;
     font-size: 1.8vw;
+    border-style: ridge;
+    border-style: ridge;
+    border-width: 3px;
 }
 article {
     display: flex;
@@ -59,13 +64,14 @@ article {
     font-weight: 400;
 }
 section#descripcion {
-    background: #f5f5dc85;
+    background: #ffffa7a3;
     padding: 0 20px;
-    border-width: 5px;
-    border-color: #5a6a49;
     border-style: double;
-    border-radius: 10px;
+    border-width: 5px;
+    border-color: #785959ab;
+    border-radius: 17px;
 }
+
 footer {
     background-image: url("../assets/2focus.jpg.jpg");
     background-repeat:round;
@@ -142,11 +148,12 @@ footer h2 {
     margin: 0em 1em;
 }
 #contenido {
-    background: url("../assets/cuaderno.webp");
+    background: url("../assets/2focus.jpg.jpg");
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: cover;
+    background-size: 50% 37%;
+    opacity: 0.9;
     height: 100%;
     padding-bottom: 1.5vw;
 }
