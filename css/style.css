@@ -9,7 +9,6 @@ body {
     width: 100%;
     height: fit-content;
     margin-top: 0px;
-    border-bottom-color: rgb(253 255 119);
     border-bottom-style: ridge;
 }
 header div p, header div h1 {
