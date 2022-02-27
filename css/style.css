@@ -3,8 +3,7 @@ body {
     margin-top: 0px;
 }
 #header {
-    background: rgb(170,103,0);
-    background: radial-gradient(ellipse, rgba(170,103,0,1) 0%, rgb(147 91 4) 18%, rgba(100,0,0,1) 42%, rgb(2 0 0) 91%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(ellipse, rgb(255 255 255) 0%, rgb(105 103 114) 24%, rgb(66 64 82) 49%, rgb(18 14 38) 73%, rgba(0,0,0,1) 101%);
     background-size: 200% 172%;
     display: flex; flex-direction: row; align-content: center;
     width: 100%;
@@ -36,7 +35,8 @@ header div h1 {
 nav {
     display: flex;
     align-items: center;
-    background: chocolate;
+    background: #d2691e00;
+    border-color: transparent;
     opacity: 0.7;
     padding: 0px 4px;
     width: 24%;
@@ -44,10 +44,12 @@ nav {
 }
 nav:hover {
     opacity: 1;
-    border-color: yellow;
+    border-color: #9891ff;
     border-style: ridge;
-    background: linear-gradient(0deg, black, chocolate);
+    background: linear-gradient(0deg, #242424, #5a88a3);
     border-width: thin;
+    transition-duration: 0.5s;
+    border-radius: 14px;
 }
 #link-form {
     display: flex;
@@ -61,6 +63,7 @@ nav:hover {
     font-family: cursive;
     font-weight: 700;
     font-size: 1em;
+    cursor:pointer;
 
 }
 main {
@@ -167,15 +170,13 @@ footer p {
     
 }
 form#contacto {
-    
-    margin-bottom: 1em;
+    margin-bottom: 0.2rem;
     transition-property: all;
     transition-duration: 0.8s;
-  transition-delay: 0s;    
-  display:flex;
-  flex-direction: row;
-    opacity: 0 ;
-
+    transition-delay: 0s;    
+    display:flex;
+    flex-direction: row;
+    opacity: 0;
 }
 
 form input {
@@ -199,8 +200,7 @@ footer h2 {
     padding-bottom: 1.5vw;
 }
 .flat {
-    position: relative;
-    top: 0%
+    margin-top: 0.6rem;
 }
 /*#div-contacto:hover> form#contacto {
     transition-property: all;
