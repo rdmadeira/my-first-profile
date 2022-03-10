@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css" media="(max-width:819px)">
     <script src="https://kit.fontawesome.com/86e6e4cfba.js" crossorigin="anonymous"></script>
     <title>My Profile</title>
     
@@ -24,7 +25,7 @@
             <a href="#pie" id="link-form">
                 <label for="link-form"  id="label-contacto">Dejá tu Contacto!</label>
                 <img src="./assets/address-card-solid.svg" alt="imagen de un formulario"
-                id="img-form" style="width: 6vw; background-color: chocolate; border-radius: 10px;">
+                id="img-form" style="width: max(6vw,40px); background: #d2691e00; border-radius: 10px;">
             </a>
         </nav>        
     </header>
@@ -73,7 +74,9 @@
         <footer id="pie">
                            
             <div id="div-contacto" >
-                <a href="#contacto" class="flat"><button class="flat" type="submit"><img src="./assets/address-card-solid.svg" alt=""><label for="~#contacto>#nombre">&nbspContacto:</label></button></a>    
+                <!-- <div class="flat"> -->
+                    <button class="flat" type="submit"><img src="./assets/address-card-solid.svg" alt="">Contacto:</button></a>
+                <!-- </div>     -->
                 <form id="contacto"> 
                     <input type="text" name="nombre" id="nombre" placeholder="Nombres">
                     <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
