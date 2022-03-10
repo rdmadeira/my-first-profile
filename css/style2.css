@@ -1,0 +1,30 @@
+@media (max-width:819px) {
+    #tarjeta {
+        display: flex;
+        flex-direction: column;
+        font-size: max(2.9vw,14px);
+        width: initial;
+        padding: 2vh 1vh;
+    }
+    #tarjeta ul {
+        padding-inline-start: 0vw;
+    }
+    #title {
+        width: 30%;
+    }
+
+    header div p, header div h1 {
+    font-size: max(2vw,19px);
+    }
+
+    nav {
+        width: max-content;
+        
+    }
+    #label-contacto {
+        font-size: max(1.6vw,13px);
+    }
+    #link-form {
+        flex-direction: column;
+    }
+}

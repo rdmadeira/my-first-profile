@@ -4,7 +4,9 @@ body {
 }
 #header {
     background: linear-gradient(342deg, rgb(255 255 255) 0%, rgb(156 157 92) 5%, rgb(2 39 54) 34%, rgb(9 6 28) 64%, rgba(0,0,0,1) 100%);
-    display: flex; flex-direction: row; align-content: center;
+    display: flex; flex-direction: row; 
+    align-content: center;
+    justify-content: space-between;
     width: 100%;
     height: fit-content;
     margin-top: 0px;
@@ -60,7 +62,7 @@ nav:hover {
     color:beige;
     font-family: cursive;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1.6vw;
     cursor:pointer;
 
 }
@@ -129,20 +131,21 @@ footer {
     align-items: center;    
     display: flex;
     flex-direction: column;
+    height: 0vh;
 }
-
-
 
 
 button.flat:focus ~ form#contacto {
     transition-property: all;
     transition-duration: 1s;
-    transition-delay: 1s;
-    
+    transition-delay: 0.4s;
+    transition-timing-function: cubic-bezier(0.6, 1.43, 0.82, -1.15);
     opacity: 1;
     position: relative;
     bottom: 52vh;
     background-color: #622020;
+    padding-bottom: 20vh;
+    height: max-content;
 }
 /* div.flat:hover {
     background-color: #761717f2;
@@ -164,6 +167,7 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    font-size: 12px;
     
 }
 form#contacto {
@@ -181,7 +185,7 @@ form#contacto {
     opacity: 0;
     order: 0;
     z-index: 0;
-    
+    height: 0vh;    
 }
 
 form input {
@@ -211,7 +215,7 @@ footer h2 {
 .flat {
     margin-top: 0.6rem;
     z-index: 1;
-    width: 30%;
+    padding: 0 4vw;
 }
 /*#div-contacto:hover> form#contacto {
     transition-property: all;
