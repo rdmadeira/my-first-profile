@@ -31,22 +31,23 @@
     </header>
     <main>
         <div id="contenido">
-            
+            <div class="blur">    
             <article>
                 <section id="tarjeta">
-                    <img src="assets/miperfil.jpg" alt="foto proncipal de mi perfil" width="20%" height="70%">
+                    <img src="assets/miperfil.jpg" alt="foto proncipal de mi perfil" ;
+                    border-radius: 36%;">
                     <UL style="list-style: none;">
                         <li>
                             Nombre: RODRIGO   
                         </li>
                         <li>
-                            Apellidos: Madeira Calazans Nascimento
+                            Apellidos: <span>Madeira Calazans Nascimento</span>
                         </li>
                         <li>
                             Edad: 40 años
                         </li>
                         <li>
-                            <address inputmode="email" >Email: rdmadeira2@gmail.com</address> 
+                            <address inputmode="email" >Email: <span>rdmadeira2@gmail.com</span></address> 
                         </li>
                     </UL>
                 </section>
@@ -71,12 +72,13 @@
                 
             </article>
         </div>
+        </div>
         <footer id="pie">
                            
-            <div id="div-contacto" >
-                <!-- <div class="flat"> -->
-                    <button class="flat" type="submit"><img src="./assets/address-card-solid.svg" alt="">Contacto:</button></a>
-                <!-- </div>     -->
+                <div id="div-contacto" >
+                    <label for="checked" class="label-contacto"><img src="./assets/address-card-solid.svg" alt=""> Contacto:</label>
+                </div>
+                <input type="checkbox" name="checked" id="checked" >
                 <form id="contacto"> 
                     <input type="text" name="nombre" id="nombre" placeholder="Nombres">
                     <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
@@ -84,7 +86,6 @@
                     <input type="text" name="correo" id="correo" placeholder="Correo Electronico">
                     <button type="submit" id="button">Enviar</button>
                 </form>
-            </div>
             <div style="right: 10px;
             position: absolute;">
                 <p>
