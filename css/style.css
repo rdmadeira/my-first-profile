@@ -117,6 +117,7 @@ article {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    row-gap: 35px;
 }
 section#descripcion {
     background: #ffffa7a3;
@@ -158,10 +159,8 @@ footer {
     transition-delay: 0.4s;
     transition-timing-function: cubic-bezier(0.6, 1.43, 0.82, -1.15);
     opacity: 1;
-    position: relative;
-    bottom: 25vh;
     background-color: rgb(82 29 31);
-    padding-bottom: 20vh;
+    padding-bottom: 300px;
     height: max-content;
 }
 
@@ -200,7 +199,7 @@ form input {
     flex-direction: column;
     margin: 1.5vw;
     width: 27vw;
-    height: 1.3em;
+    height: max(1.3em,27px);
     border-radius: 7px;
     border-width: 0.3vw;    
 }
