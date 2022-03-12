@@ -1,8 +1,11 @@
 @media (max-width:819px) {
+    article {
+        width: 90%;
+    }
     #tarjeta {
         display: flex;
         flex-direction: column;
-        font-size: max(2.9vw,14px);
+        font-size: max(3.2vw,19px);
         width: initial;
         padding: 2vh 1vh;
     }
@@ -12,6 +15,11 @@
     #title {
         width: 30%;
     }
+    label#contacto {
+        font-size: max(1.6vw,13px);
+        text-align: center;
+    }
+
 
     header div p, header div h1 {
     font-size: max(2vw,19px);
@@ -21,10 +29,28 @@
         width: max-content;
         
     }
-    #label-contacto {
-        font-size: max(1.6vw,13px);
+    #tarjeta img {
+        width: 36%;
+        border-radius: 41%;
+    }
+    #tarjeta ul li {
+        text-align: center;
+    }
+    .label-contacto {
+        font-size: max(1.6vw,10px);
     }
     #link-form {
         flex-direction: column;
+    }
+    form input {
+        width: 68vw;
+        height: 1.8em;
+    }
+    form#contacto {
+        row-gap: 3vh;
+    }
+    #button {
+        width: 50%;
+        padding: 10px 20px;
     }
 }
