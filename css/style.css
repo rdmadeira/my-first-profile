@@ -1,3 +1,25 @@
+/* CSS HEX */
+:root {
+--black-olive: #404A46ff;
+--laurel-green: #C3D2B7ff;
+--green-pigment: #1C9941ff;
+--pear: #C8D92Cff;
+--beige: #D7E2CEff;
+}
+
+
+/* SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-right: linear-gradient(90deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-bottom: linear-gradient(180deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-left: linear-gradient(270deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-top-right: linear-gradient(45deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-bottom-right: linear-gradient(135deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-top-left: linear-gradient(225deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-bottom-left: linear-gradient(315deg, #404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+$gradient-radial: radial-gradient(#404A46ff, #C3D2B7ff, #1C9941ff, #C8D92Cff, #D7E2CEff);
+*/
+
 * {
     Box-sizing: border-box;
     Padding: 0 0;
@@ -32,9 +54,14 @@ header div h1 {
     margin-bottom: 0px;
     margin-block-start: 1em; 
     text-align: center;   
+    color: #e1e1a7;
+
 }
 #logo {
-    width: 30%;
+    width: 25%;
+    align-self: center;
+    padding-left: 20px;
+    
 }
 #title {
     width: 45%;
@@ -96,6 +123,7 @@ picture {
     color: beige;
     background-color: #600f0fab;
     border-radius: 10px;
+    width: min(100%,620px);
     position: relative;
     margin-top: 4.5%;
     padding: 1vw 2vw;
@@ -107,6 +135,7 @@ picture {
     height:70%;
     width: 23%;
     border-radius: 41%;
+    margin-right: 15px;
 }
 article {
     display: flex;
@@ -160,7 +189,7 @@ footer {
     transition-timing-function: cubic-bezier(0.6, 1.43, 0.82, -1.15);
     opacity: 1;
     background-color: rgb(82 29 31);
-    padding-bottom: 300px;
+    padding-bottom: 500px;
     height: max-content;
 }
 
@@ -183,8 +212,6 @@ form#contacto {
     justify-content: center;
     align-items: center;
     padding: 2vh;
-    position: relative;
-    bottom: 15vh;
     opacity: 0;
     order: 0;
     z-index: 0;

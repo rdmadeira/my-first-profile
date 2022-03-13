@@ -5,8 +5,8 @@
     #tarjeta {
         display: flex;
         flex-direction: column;
-        font-size: max(3.2vw,19px);
-        width: initial;
+        font-size: max(3.2vw,21px);
+        width: 80%;
         padding: 2vh 1vh;
     }
     #tarjeta ul {
@@ -32,6 +32,8 @@
     #tarjeta img {
         width: 36%;
         border-radius: 41%;
+        margin: 20px 0 20px 0;
+
     }
     #tarjeta ul li {
         text-align: center;
